@@ -68,7 +68,7 @@ terraform apply
 ## 🙋‍♂️ Author
 
 **Sasi Sriram**  
-📧 [Mail](mailto:sasisriram162005@gmail.com)  
+📧 [sasisriram162005@gmail.com](mailto:sasisriram162005@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/sasisriram)  
-🔗 [GitHub](https://github.com/sasisriram)
+🔗 [GitHub](https://github.com/sriram2200)
 
