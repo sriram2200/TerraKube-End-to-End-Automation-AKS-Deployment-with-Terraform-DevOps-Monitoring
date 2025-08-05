@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: python 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python
+  template:
+    metadata:
+      labels:
+        app: python 
+    spec:
+      containers:
+        - name: python 
+          image: demoterraacr.azurecr.io/pipm  #need to change based on repo name
+          ports:
+          - containerPort: 5000
