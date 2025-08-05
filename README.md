@@ -39,7 +39,7 @@ terraform apply
   - NGINX Ingress Controller deployed via Helm
   - Prometheus and Grafana via Helm
 
-###  Application CI/CD (Azure DevOps)
+##  Application CI/CD (Azure DevOps)
 - Pipeline: Infra Deployment
    - Stage 1: Run bootstrap Terraform (no backend)
    - Stage 2: Deploy AKS, ACR, VNet using remote backend
