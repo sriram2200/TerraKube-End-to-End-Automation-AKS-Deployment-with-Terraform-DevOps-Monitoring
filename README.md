@@ -61,7 +61,7 @@ terraform apply
      - Grafana: Visualization dashboards
   - Pipeline-triggered deployment, fully automated
 
-### Architecture Diagram
+## Architecture Diagram
 
 ![Architecture Diagram](https://github.com/user-attachments/assets/69f58226-d4b2-4581-8123-fa0ab39fa033)
 
