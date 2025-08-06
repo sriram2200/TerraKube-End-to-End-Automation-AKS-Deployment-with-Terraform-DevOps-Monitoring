@@ -40,3 +40,36 @@ resource "helm_release" "grafana" {
   EOF
   ]
 }
+
+#ingress 
+
+resource "kubernetes_ingress_v1" "appingress" {
+  metadata {
+    name      = "app-ingress"
+    namespace = "default"
+    annotations = {
+      "kubernetes.io/ingress.class" = "nginx"
+    }
+  }
+
+  spec {
+    rule {
+
+      http {
+        path {
+          path     = "/"
+          path_type = "Prefix"
+
+          backend {
+            service {
+              name = "python"
+              port {
+                number = 80
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
